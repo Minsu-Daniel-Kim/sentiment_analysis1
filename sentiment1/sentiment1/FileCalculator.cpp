@@ -86,12 +86,11 @@ float FileCalculator::getTotalRating() {
     return totalRating;
 }
 
-string FileCalculator::getSentiment() {
+string FileCalculator::getSentiment(float ratings) {
     
-    float average = getAverage();
-    if (average > 2.01) {
+    if (ratings > 2.01) {
         return "positive";
-    } else if (average < 1.99) {
+    } else if (ratings < 1.99) {
         return "negative";
     } else {
         return "neutral";
@@ -100,6 +99,33 @@ string FileCalculator::getSentiment() {
     
     
 }
+
+void FileCalculator::sortWordsBySentiment() {
+    map<string, float>::iterator it;
+    
+    ofstream positiveFile;
+    ofstream negativeFile;
+    positiveFile.open ("/Users/daniel/Dropbox/sentiment1/sentiment1/sentiment1/positive.txt");
+    negativeFile.open ("/Users/daniel/Dropbox/sentiment1/sentiment1/sentiment1/negative.txt");
+    
+    for (auto const& x : wordRatingMap)
+    {
+        string sentiment = getSentiment(x.second);
+        
+        if (sentiment == "positive") {
+            positiveFile << x.first << endl;
+        } else {
+            negativeFile << x.first << endl;
+        }
+
+    }
+    positiveFile.close();
+    negativeFile.close();
+    
+}
+
+
+
 
 float FileCalculator::getAverage() {
     return getTotalRating() / getTotalCount();

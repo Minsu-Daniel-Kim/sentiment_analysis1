@@ -40,10 +40,12 @@ class FileCalculator {
         int getTotalCount();
         float getTotalRating();
         void calculate();
-        string getSentiment();
+        string getSentiment(float ratings);
         float getAverage();
         WordRating getWordRating();
+        void sortWordsBySentiment();
         void findHighestLowest();
+        void writeFile();
     
     private:
         WordRating wordRating;
