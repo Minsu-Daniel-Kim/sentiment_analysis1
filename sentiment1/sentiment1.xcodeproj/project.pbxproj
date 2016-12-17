@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		654FD9921E04FE1700AB49E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654FD9911E04FE1700AB49E0 /* main.cpp */; };
+		654FD99C1E05090B00AB49E0 /* ReviewCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654FD99A1E05090B00AB49E0 /* ReviewCalculator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		654FD98E1E04FE1700AB49E0 /* sentiment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sentiment1; sourceTree = BUILT_PRODUCTS_DIR; };
 		654FD9911E04FE1700AB49E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		654FD9991E04FF6200AB49E0 /* movieReviews.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = movieReviews.txt; sourceTree = "<group>"; };
+		654FD99A1E05090B00AB49E0 /* ReviewCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReviewCalculator.cpp; sourceTree = "<group>"; };
+		654FD99B1E05090B00AB49E0 /* ReviewCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewCalculator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				654FD9991E04FF6200AB49E0 /* movieReviews.txt */,
 				654FD9911E04FE1700AB49E0 /* main.cpp */,
+				654FD99A1E05090B00AB49E0 /* ReviewCalculator.cpp */,
+				654FD99B1E05090B00AB49E0 /* ReviewCalculator.h */,
 			);
 			path = sentiment1;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				654FD9921E04FE1700AB49E0 /* main.cpp in Sources */,
+				654FD99C1E05090B00AB49E0 /* ReviewCalculator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
