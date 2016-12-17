@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		654FD98E1E04FE1700AB49E0 /* sentiment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sentiment1; sourceTree = BUILT_PRODUCTS_DIR; };
 		654FD9911E04FE1700AB49E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		654FD9991E04FF6200AB49E0 /* movieReviews.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = movieReviews.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		654FD9901E04FE1700AB49E0 /* sentiment1 */ = {
 			isa = PBXGroup;
 			children = (
+				654FD9991E04FF6200AB49E0 /* movieReviews.txt */,
 				654FD9911E04FE1700AB49E0 /* main.cpp */,
 			);
 			path = sentiment1;
