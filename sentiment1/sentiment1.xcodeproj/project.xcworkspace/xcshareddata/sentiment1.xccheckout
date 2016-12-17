@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>52CD4780-18B2-4CF5-A1BD-5A67C9602790</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6000CC7E1414ABB22A7761DFF4209C61790EDF15</key>
+		<string>https://github.com/Minsu-Daniel-Kim/sentiment_analysis1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sentiment1/sentiment1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6000CC7E1414ABB22A7761DFF4209C61790EDF15</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Minsu-Daniel-Kim/sentiment_analysis1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6000CC7E1414ABB22A7761DFF4209C61790EDF15</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6000CC7E1414ABB22A7761DFF4209C61790EDF15</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sentiment1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
