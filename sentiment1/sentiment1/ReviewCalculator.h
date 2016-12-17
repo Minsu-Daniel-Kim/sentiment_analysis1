@@ -24,8 +24,11 @@ class ReviewCalculator {
     
     public:
         ReviewCalculator(string file);
+        ReviewCalculator();
         int getCount();
         int getRating();
+        void findHighestLowest();
+    
         void calculate(string word);
     
     private:
