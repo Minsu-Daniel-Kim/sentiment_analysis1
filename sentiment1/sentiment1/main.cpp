@@ -39,4 +39,5 @@ int main(int argc, const char * argv[]) {
     cout << "The average score for reviews containing the word " << word << " is " << totalRating/wordCount;
     
     
+    
 }
